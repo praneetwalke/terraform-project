@@ -63,7 +63,7 @@ Once the deployment is complete, you can access the application using the DNS na
 2. Open the **Load Balancers** section under EC2.
 3. Copy the DNS name of the ALB and open it in your browser.
 
-You should see the message: **Welcome to my Task**.
+You should see the message: **Welcome to This Webserve</h1> \nThe Content and the infrastructure is created using Terraform**.
 
 ## Clean Up
 To destroy the resources and avoid unnecessary costs, run:
