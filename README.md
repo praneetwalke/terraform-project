@@ -55,6 +55,8 @@ terraform apply
 ```
 Follow the prompts and type `yes` to confirm the deployment.
 
+![Screenshot (151)](https://github.com/user-attachments/assets/7a495137-2095-4340-8a09-7452866b4de0)
+
 ### . Access the Application
 Once the deployment is complete, you can access the application using the DNS name of the ALB. To find the DNS name:
 1. Navigate to the AWS Management Console.
