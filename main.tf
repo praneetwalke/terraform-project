@@ -104,7 +104,7 @@ user_data = base64encode(<<EOF
 sudo yum update -y
 sudo amazon-linux-extras enable nginx1
 sudo yum install -y nginx
-echo "<h1>Welcome to my Task</h1>" | sudo tee /usr/share/nginx/html/index.html
+echo "<h1>Welcome to This Webserve</h1> \nThe Content and the infrastructure is created using Terraform</h1>" | sudo tee /usr/share/nginx/html/index.html
 sudo systemctl enable nginx
 sudo systemctl start nginx
 EOF
